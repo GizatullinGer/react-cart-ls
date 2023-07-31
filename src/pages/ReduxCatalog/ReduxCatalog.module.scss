@@ -1,0 +1,30 @@
+.startSection {
+	padding: 40px;
+
+	h1 {
+		font-size: 48px;
+		line-height: 160%;
+	}
+
+	p {
+		font-size: 24px;
+	}
+}
+
+.catalog {
+	h2 {
+		margin: 0 0 40px 0;
+	}
+
+	.catalog__items {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+}
+
+.toCart {
+	text-align: right;
+	margin: 35px 120px 0 0;
+	font-size: 24px;
+}
