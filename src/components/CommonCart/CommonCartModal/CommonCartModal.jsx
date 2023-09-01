@@ -1,9 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { CartItem } from '../CommonCartItem/CommonCartItem'
 
 import styles from './CommonCartModalStyle.module.scss'
-import { Link } from 'react-router-dom'
 
 export const CartModal = props => {
 	const cost = props.items.reduce(

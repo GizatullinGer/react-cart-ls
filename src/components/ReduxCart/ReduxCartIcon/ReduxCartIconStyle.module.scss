@@ -1,0 +1,19 @@
+.cart__icon {
+	position: fixed;
+	z-index: 100;
+	right: 30px;
+	top: 100px;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	color: #fff;
+	background-color: #ef5350;
+}
+
+.cart__icon img {
+	width: 35px;
+}

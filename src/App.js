@@ -7,6 +7,7 @@ import { CommonCatalog } from './pages/CommonCatalog/CommonCatalog'
 import { CommonCart } from './pages/CommonCartPage/CommonCart'
 import { CommonProduct } from './pages/CommonProductPage/CommonProduct'
 import { ReduxCatalog } from './pages/ReduxCatalog/ReduxCatalog'
+import { ReduxCart } from './pages/ReduxCartPage/ReduxCart'
 
 // Создание ссылок по сайту с помощью плагина react-router
 
@@ -42,6 +43,11 @@ const router = createBrowserRouter([
 				// Страница корзины. Ссылка /path
 				path: 'reduxcatalog',
 				element: <ReduxCatalog />,
+			},
+			{
+				// Страница корзины. Ссылка /path
+				path: 'reduxcatalog/cart',
+				element: <ReduxCart />,
 			},
 		],
 	},
